@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-3xl text-prrimary block py-6">Samuel..</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-slate-900 lg:dark:bg-transparent dark:shadow-slate-500 ">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-prrimary dark:text-white">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-prrimary dark:text-white">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio"
+                                    class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-prrimary dark:text-white">Project</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-base text-slate-900 py-2 mx-8 flex   group-hover:text-prrimary dark:text-white">contact</a>
+                            </li>
+                            <li class="flex items-center pl-8">
+                                <div class="flex">
+                                    <span class="mr-2 text-sm text-slate-500">Light</span>
+                                    <input type="checkbox" class="hidden" id="dark-toggle" />
+                                    <label for="dark-toggle">
+                                        <div
+                                            class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                            <div
+                                                class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out">
+
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <span class="ml-2 text-sm text-slate-500">Dark</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- navbar -->
+
+
+    <!--home-->
+    <section id="home" class="pt-36 dark:bg-slate-900">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-prrimary md:text-xl" data-aos="fade-right">Hola 🤗 My Name
+                        is
+                        <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl dark:text-white
+                        ">Samuel Manalu</span>
+                    </h1>
+                    <h2 class="text-slate-500 text-lg mb-5 lg:text-2xl" data-aos="fade-right">President University <span
+                            class="text-slate-900  dark:text-white ">
+                            Student</span> </h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed" data-aos="fade-right"> I am a fourth
+                        semester student at President University majoring in information technology.
+                        I entered this major because I want to know how technology works and am very interested in
+                        various
+                        unique things.</p>
+                    <a href="#"
+                        class="text-base font-semibold text-white bg-prrimary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+                        data-aos="flip-up">Contact me
+                    </a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-0 lg:right-0" data-aos="fade-up">
+                        <img src="dist/img/sam2.png" alt="Samuel" class="max-w-full mx-auto relative z-10" />
+                        <span class="absolute -bottom-20 left-1/2  -translate-x-1/2 md:scale-120">
+                            <svg width="400" height="700" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#7c3aed"
+                                    d="M48.5,-66.5C61.4,-57.3,69.5,-41.3,69,-26.3C68.6,-11.3,59.6,2.6,52.3,14.5C45,26.5,39.4,36.5,31,49.5C22.5,62.4,11.3,78.4,-2.7,82.1C-16.6,85.7,-33.2,77.2,-43.8,64.9C-54.3,52.6,-58.8,36.6,-63,21C-67.3,5.5,-71.4,-9.5,-69.5,-24.8C-67.5,-40,-59.5,-55.5,-46.9,-64.7C-34.3,-73.9,-17.2,-76.9,0.3,-77.4C17.8,-77.8,35.6,-75.6,48.5,-66.5Z"
+                                    transform="translate(100 100) scale(1.4)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home-->
+
+    <!-- about -->
+    <section id="about" class="pt-36 pb-32 dark:bg-slate-900">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2" data-aos="zoom-out-right">
+                    <h4 class="font-bold uppercase text-prrimary text-lg mb-3">About me</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-5 max-w-md lg:text-4xl  dark:text-white">IM A
+                        STUDENT AT PRESIDENT UNIVERSITY </h2>
+                    <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg">hi, i am samuel jagar adoman
+                        manalu a fourth semester student from president university, where i majored in IT based on my
+                        curiosity in the world of working technology. i am also interested in the world of design which
+                        also makes me interested in UI/UX. in terms of programming at this time i am proficient in HTML,
+                        CSS, JAVA, JS.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2" data-aos="zoom-out-left">
+                    <h3 class="font-semibold text-slate-900 text-2xl mb-4 lg:text-3xl lg:pt-10  dark:text-white">FOLLOW
+                        ME</h3>
+                    <p class="font-medium text-base text-slate-500 mb-6 lg:text-lg">If you want to know me better, you
+                        can visit some of my social media. So that I can also reach you to get to know you better.</p>
+                    <div class="flex items-center">
+                        <!-- instagram -->
+                        <a href="https://www.instagram.com/samjgr.mnl/" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-prrimary hover:text-white">
+                            <svg width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="
+                                fill-current dark:fill-white">
+                                <title>Instagram</title>
+                                <path
+                                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                            </svg></a>
+
+                        <!-- linkdin -->
+                        <a href="https://www.linkedin.com/in/samuel-jagar-manalu/" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-prrimary hover:text-white">
+                            <svg width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="
+                            fill-current dark:fill-white">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg></a>
+                        <!-- linkdin -->
+                        <a href="facebook.com" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-prrimary hover:text-white">
+                            <svg width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="
+                            fill-current dark:fill-white">
+                                <title>Facebook</title>
+                                <path
+                                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center py-10">
+                    <div
+                        class="max-w-7xl bg-white shadow-lg rounded-lg overflow-hidden flex flex-col p-8 dark:bg-slate-900 dark:shadow-slate-500">
+                        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="bg-white p-8 rounded-lg shadow-lg dark:bg-slate-900 dark:shadow-slate-500 "
+                                data-aos="fade-right">
+                                <h2 class="text-2xl font-bold text-prrimary">Background</h2>
+                                <p class="mt-4 text-slate-500">
+                                    I have always been fascinated by how computers and technology impact our daily
+                                    lives.
+                                    This curiosity drove me to explore programming and web development, which later
+                                    became my
+                                    primary
+                                    interests.
+                                </p>
+                            </div>
+
+                            <div class="bg-white p-8 rounded-lg shadow-lg dark:bg-slate-900 dark:shadow-slate-500"
+                                data-aos="fade-left">
+                                <h2 class="text-2xl font-bold text-prrimary">Skills</h2>
+                                <ul class="mt-4 text-slate-500 list-disc list-inside">
+                                    <li>HTML,CSS,JS,java</li>
+                                    <li>Experienced with Tailwind CSS, Bootstrap</li>
+                                    <li>Basic knowledge of backend development (PHP)</li>
+                                    <li>Interested in Cyber Security,AI</li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-white p-8 rounded-lg shadow-lg dark:bg-slate-900 dark:shadow-slate-500"
+                                data-aos="fade-right">
+                                <h2 class="text-2xl font-bold text-prrimary">Hobbies</h2>
+                                <p class="mt-4 text-slate-500">
+                                    Outside of programming, I also like playing FPS games, watching movies and anime,
+                                    and
+                                    exploring
+                                    new things on the computer.
+                                </p>
+                            </div>
+
+                            <div class="bg-white p-8 rounded-lg shadow-lg dark:bg-slate-900 dark:shadow-slate-500"
+                                data-aos="fade-left">
+                                <h2 class="text-2xl font-bold text-prrimary">Future Goals</h2>
+                                <p class="mt-4 text-slate-500">
+                                    My future goal is to become a full stack developer who can have a big impact on the
+                                    future
+                                    of
+                                    technology.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <!-- porto -->
+    <section id="portofolio">
+        <div class="pt-36 pb-32  bg-slate-200 dark:bg-slate-800">
+            <h1 class="text-4xl font-bold text-center text-prrimary" data-aos="zoom-in-up">My Recent Project</h1>
+            <div class="flex items-center justify-center bg-grey-100 pt-12">
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 " data-aos="fade-down">
+                    <div
+                        class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-lg">
+                        <div class="h-96 w-72 ">
+                            <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                                src="dist/img/p1.png" alt="" />
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+                        </div>
+                        <div
+                            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="font-dmserif text-3xl font-bold text-white">PUTA</h1>
+                            <p
+                                class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                PUTA is a project that I created with my group mates in completing a college assignment,
+                                in
+                                which we created a system to help people repair their electronic devices such as laptops
+                                and
+                                smartphones.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-lg">
+                        <div class="h-96 w-72">
+                            <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                                src="dist/img/p2.jpg" alt="" />
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+                        </div>
+                        <div
+                            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="font-dmserif text-3xl font-bold text-white">PersamiSakocab</h1>
+                            <p
+                                class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                This is a social project that my group and I worked on as part of a college assignment,
+                                in
+                                which
+                                we took values ​​from Pancasila, religion and citizenship.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-lg">
+                        <div class="h-96 w-72">
+                            <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                                src="dist/img/p3.png" alt="" />
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+                        </div>
+                        <div
+                            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="font-dmserif text-3xl font-bold text-white">7 Store</h1>
+                            <p
+                                class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                7 Store is a project that I worked on with my group mates for a college assignment,
+                                where 7
+                                Store is a website for topping up game currency that is integrated with a database.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-lg">
+                        <div class="h-96 w-72">
+                            <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                                src="dist/img/p4.png" alt="" />
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+                        </div>
+                        <div
+                            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="font-dmserif text-3xl font-bold text-white">Porto web</h1>
+                            <p
+                                class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                This is a website that I made to show my portfolio which contains my data and I use
+                                tailwind for the CSS and then use JS to make the hamburger menu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- porto -->
+
+    <!-- contatc -->
+    <section id="contact" class="pt-20 pb-32 dark:bg-slate-700">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-bold text-prrimary mb-2">Get In Touch</h4>
+                    <h2 class="fontt-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Call Me
+                        amigos...</h2>
+                    <p class="font-medium text-md text-slate-500 md:text-lg">You can contact me from here so we can talk
+                        more freely.</p>
+                </div>
+            </div>
+            <form>
+
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+
+                    <div class="w-full px-4 mb-8" data-aos="fade-right">
+                        <label for="name" class="text-base font-bold text-prrimary">Name</label>
+                        <input type="text" id="name"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-prrimary focus:border-prrimary">
+                    </div>
+                    <div class="w-full px-4 mb-8" data-aos="fade-left">
+                        <label for="email" class="text-base font-bold text-prrimary">Email</label>
+                        <input type="text" id="name"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-prrimary focus:border-prrimary">
+                    </div>
+                    <div class="w-full px-4 mb-8" data-aos="fade-right">
+                        <label for="message" class="text-base font-bold text-prrimary">message</label>
+                        <textarea type="text" id="name"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-prrimary focus:border-prrimary h-32"></textarea>
+                    </div>
+                    <div w-full px-4 ">
+                        <button
+                            class=" text-base font-semibold text-white bg-prrimary py-3 rounded-full w-full
+                        hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <footer class="bg-slate-900 pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-warp">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
+                    <h2 class="font-bold text-4xl text-white mb-5">Samuel</h2>
+                    <h3 class="font-bold text-2xl ,b-2">Contact Me</h3>
+                    <p>samuel.manalu23@student.president.ac.id</p>
+                    <p>jl.jamin ginting</p>
+                    <p>Medan</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Site Map</h3>
+                    <ul class="text-slate-300">
+
+                        <li>
+                            <a href="#home" class="inline-block text-base group-hover:text-prrimary mb-3">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base group-hover:text-prrimary mb-3">About</a>
+                        </li>
+                        <li>
+                            <a href="#portofolio"
+                                class="inline-block text-base group-hover:text-prrimary mb-3">Project</a>
+                        </li>
+                        <l>
+                            <a href="#contact" class="inline-block text-base group-hover:text-prrimary mb-3">contact</a>
+                        </l>
+
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Web category</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base group-hover:text-prrimary mb-3">programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base group-hover:text-prrimary mb-3">Technology</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base group-hover:text-prrimary mb-3">Biograf</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- instagram -->
+                    <a href="instagram.com" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-prrimary hover:text-white">
+                        <svg width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="
+                            fill-white">
+                            <title>Instagram</title>
+                            <path
+                                d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                        </svg></a>
+
+                    <!-- linkdin -->
+                    <a href="linkdin.com" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-prrimary hover:text-white">
+                        <svg width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="
+                        fill-white">
+                            <title>LinkedIn</title>
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg></a>
+                    <!-- linkdin -->
+                    <a href="facebook.com" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-prrimary hover:text-white">
+                        <svg width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="
+                        fill-white">
+                            <title>Facebook</title>
+                            <path
+                                d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+                        </svg></a>
+                </div>
+                <p class="font-medium text-sm text-slate-500 text-center"> Made by Samuel Manalu </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- to top -->
+    <a href="#home" class=" fixed z-[9999] bottom-4 right-4 p-4 h-14 w-14 bg-prrimary rounded-full hidden " id="to-top">
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Ardour</title>
+            <path
+                d="M12 1.606L0 22.394c1.45 0 .832-.885 1.565-.93.703 0 .559.44 1.044.44.846 0 .273-2.82 1.043-2.82.665 0 .48 2.038 1.044 2.038.288 0 .521-.811.521-1.81v-.945c0-1.304.234-2.364.522-2.364.288 0 .522 1.066.522 2.005 0 1.178.233 2.43.522 2.43.288 0 .521-1.263.521-2.805v-.44c0-1.69.234-3.065.522-3.065.288 0 .522 1.369.522 2.967 0 1.661.233 3.098.522 3.098.288 0 .521-1.437.521-3.18 0-1.737.234-3.146.522-3.146.288 0 .522 1.424.522 3.277 0 1.786.233 3.147.522 3.147.288 0 .521-1.367.521-2.87 0-1.386.234-2.657.522-2.657.288 0 .522 1.271.522 2.837v.472c0 1.415.233 2.56.521 2.56.289 0 .522-1.152.522-2.299 0-.973.234-1.989.522-1.989.288 0 .522 1.01.522 2.25v.57c0 1.058.233 1.908.521 1.908.289 0 .522-.84.522-1.614 0-.589.234-1.304.522-1.304.288 0 .522.709.522 1.581v.538c0 .696.233 1.272.521 1.272.595 0 .45-1.728 1.044-1.728.288 0 .522.43.522.962v.456c0 .385.233.685.521.685.59 0 .462-.782 1.044-.782.76 0 .197 1.076 1.043 1.076.512 0 .426-.18 1.044-.18.563 0 .493.359 1.565.359z" />
+        </svg>
+    </a>
+    <!-- to top -->
+
+    <script src="dist/js/script.js"></script>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
